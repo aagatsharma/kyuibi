@@ -10,6 +10,7 @@ import {
 import { MenuIcon } from "lucide-react";
 import Link from "next/link";
 import { Button } from "../ui/button";
+import NavbarContent from "./navbar/NavbarContent";
 
 const Sidebar = () => {
   return (
@@ -23,9 +24,10 @@ const Sidebar = () => {
         <SheetHeader>
           <SheetTitle>LOGO</SheetTitle>
           <SheetClose asChild className="pt-10">
-            <Link href="">
+            {/* <Link href="">
               <span>Home</span>
-            </Link>
+            </Link> */}
+            <NavbarContent />
           </SheetClose>
         </SheetHeader>
       </SheetContent>

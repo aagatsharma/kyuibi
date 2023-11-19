@@ -2,6 +2,7 @@
 import { Moon, Sun } from "lucide-react";
 
 import { useTheme } from "next-themes";
+import { motion } from "framer-motion";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -18,7 +19,9 @@ const Navbar = () => {
   return (
     <nav className=" fixed h-20 w-full border-b-[1px]">
       <div className=" max-w-7xl m-auto flex items-center justify-between h-full px-5">
-        <span className="font-bold">LOGO</span>
+        <motion.span className="font-bold" drag>
+          LOGO
+        </motion.span>
         <div className="flex gap-5">
           <NavbarContent />
           <DropdownMenu>
