@@ -1,8 +1,7 @@
-"use client";
-import AnimatedNumbers from "react-animated-numbers";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
+import TransitionNumber from "../TransitionNumber";
 
 const Home = () => {
   return (
@@ -38,18 +37,8 @@ const Home = () => {
         <div className="grid grid-flow-col h-28 items-center gap-x-4  ">
           <div className="flex flex-col items-center">
             <div className="flex">
-              <AnimatedNumbers
-                className="font-bold "
-                transitions={(index) => ({
-                  type: "keyframes",
-                  duration: index + 0.5,
-                })}
-                fontStyle={{
-                  fontSize: 36,
-                }}
-                animateToNumber={60}
-              />
-              <h1 className=" text-4xl">50</h1>
+              <TransitionNumber total={50} />
+
               <p className=" text-4xl self-center"> +</p>
             </div>
             <span className="text-lg">PROJECTS</span>
@@ -65,18 +54,7 @@ const Home = () => {
         <div className="grid grid-flow-col h-28 items-center gap-x-5  ">
           <div className="flex flex-col items-center">
             <div className="flex">
-              <AnimatedNumbers
-                className="font-bold "
-                transitions={(index) => ({
-                  type: "keyframes",
-                  duration: index + 0.3,
-                })}
-                fontStyle={{
-                  fontSize: 36,
-                }}
-                animateToNumber={50}
-              />
-              {/* <h1 className=" text-4xl">50</h1> */}
+              <TransitionNumber total={40} />
               <p className=" text-4xl self-center"> +</p>
             </div>
 
