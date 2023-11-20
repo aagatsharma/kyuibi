@@ -1,5 +1,5 @@
-// "use client";
-// import AnimatedNumbers from "react-animated-numbers";
+"use client";
+import AnimatedNumbers from "react-animated-numbers";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
@@ -38,7 +38,7 @@ const Home = () => {
         <div className="grid grid-flow-col h-28 items-center gap-x-4  ">
           <div className="flex flex-col items-center">
             <div className="flex">
-              {/* <AnimatedNumbers
+              <AnimatedNumbers
                 className="font-bold "
                 transitions={(index) => ({
                   type: "keyframes",
@@ -48,7 +48,7 @@ const Home = () => {
                   fontSize: 36,
                 }}
                 animateToNumber={60}
-              /> */}
+              />
               <h1 className=" text-4xl">50</h1>
               <p className=" text-4xl self-center"> +</p>
             </div>
@@ -65,7 +65,7 @@ const Home = () => {
         <div className="grid grid-flow-col h-28 items-center gap-x-5  ">
           <div className="flex flex-col items-center">
             <div className="flex">
-              {/* <AnimatedNumbers
+              <AnimatedNumbers
                 className="font-bold "
                 transitions={(index) => ({
                   type: "keyframes",
@@ -75,8 +75,8 @@ const Home = () => {
                   fontSize: 36,
                 }}
                 animateToNumber={50}
-              /> */}
-              <h1 className=" text-4xl">50</h1>
+              />
+              {/* <h1 className=" text-4xl">50</h1> */}
               <p className=" text-4xl self-center"> +</p>
             </div>
 
