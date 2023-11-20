@@ -1,4 +1,13 @@
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import {
+  Card,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+
+import { Facebook, Instagram, Linkedin } from "lucide-react";
 
 const page = () => {
   return (
@@ -17,39 +26,67 @@ const page = () => {
         <h1 className="text-center text-5xl mt-10">Our Team</h1>
 
         <div className="grid grid-cols-3 max-md:grid-cols-2 px-5 max-sm:grid-cols-1  gap-4 mt-8">
-          <div className=" space-y-3 flex flex-col items-center py-20 bg-secondary-foreground">
-            <Avatar className=" h-40 w-40 self-center">
-              <AvatarImage src="https://github.com/shadcn.png" />
-              <AvatarFallback>AS</AvatarFallback>
-            </Avatar>
-            <h1 className="text-3xl pt-2 text-secondary">Aagat Sharma</h1>
-            <div>
-              <h2 className="text-xl text-secondary ">Web Developer</h2>
-              <h2 className="text-xl text-secondary ">App Developer</h2>
-            </div>
-          </div>
-          <div className=" space-y-3 flex flex-col items-center py-20  bg-secondary ">
+          <Card className="space-y-3 flex flex-col items-center py-10 ">
             <Avatar className=" h-40 w-40 ">
               <AvatarImage src="https://github.com/shadcn.png" />
               <AvatarFallback>AS</AvatarFallback>
             </Avatar>
-            <h1 className="text-3xl pt-2">Aagat Sharma</h1>
-            <div>
-              <h2 className="text-xl ">Web Developer</h2>
-              <h2 className="text-xl ">App Developer</h2>
-            </div>
-          </div>
-          <div className=" space-y-3 flex flex-col items-center py-20 bg-primary ">
-            <Avatar className=" h-40 w-40 self-center">
+            <CardHeader className="flex items-center">
+              <CardTitle className="text-3xl">Aagat Sharma</CardTitle>
+              <CardDescription className="text-xl">
+                Web Developer
+              </CardDescription>
+              <CardDescription className="text-xl">
+                App Developer
+              </CardDescription>
+            </CardHeader>
+            <CardFooter className=" gap-6">
+              <Facebook />
+              <Instagram />
+              <Linkedin />
+            </CardFooter>
+          </Card>
+
+          <Card className="space-y-3 flex flex-col items-center py-10 ">
+            <Avatar className=" h-40 w-40 ">
               <AvatarImage src="https://github.com/shadcn.png" />
               <AvatarFallback>AS</AvatarFallback>
             </Avatar>
-            <h1 className="text-3xl pt-2">Aagat Sharma</h1>
-            <div>
-              <h2 className="text-xl ">Web Developer</h2>
-              <h2 className="text-xl ">App Developer</h2>
-            </div>
-          </div>
+            <CardHeader className="flex items-center">
+              <CardTitle className="text-3xl">Aagat Sharma</CardTitle>
+              <CardDescription className="text-xl">
+                Web Developer
+              </CardDescription>
+              <CardDescription className="text-xl">
+                App Developer
+              </CardDescription>
+            </CardHeader>
+            <CardFooter className=" gap-6">
+              <Facebook />
+              <Instagram />
+              <Linkedin />
+            </CardFooter>
+          </Card>
+          <Card className="space-y-3 flex flex-col items-center py-10 ">
+            <Avatar className=" h-40 w-40 ">
+              <AvatarImage src="https://github.com/shadcn.png" />
+              <AvatarFallback>AS</AvatarFallback>
+            </Avatar>
+            <CardHeader className="flex items-center">
+              <CardTitle className="text-3xl">Aagat Sharma</CardTitle>
+              <CardDescription className="text-xl">
+                Web Developer
+              </CardDescription>
+              <CardDescription className="text-xl">
+                App Developer
+              </CardDescription>
+            </CardHeader>
+            <CardFooter className=" gap-6">
+              <Facebook />
+              <Instagram />
+              <Linkedin />
+            </CardFooter>
+          </Card>
         </div>
       </div>
     </div>
