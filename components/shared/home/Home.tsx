@@ -1,5 +1,4 @@
 "use client";
-
 import AnimatedNumbers from "react-animated-numbers";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
