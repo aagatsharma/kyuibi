@@ -37,8 +37,8 @@ const Home = () => {
         <div className="grid grid-flow-col h-28 items-center gap-x-4  ">
           <div className="flex flex-col items-center">
             <div className="flex">
-              <TransitionNumber total={50} />
-
+              {/* <TransitionNumber total={50} /> */}
+              <h1 className="font-bold text-4xl">60</h1>
               <p className=" text-4xl self-center"> +</p>
             </div>
             <span className="text-lg">PROJECTS</span>
@@ -54,7 +54,8 @@ const Home = () => {
         <div className="grid grid-flow-col h-28 items-center gap-x-5  ">
           <div className="flex flex-col items-center">
             <div className="flex">
-              <TransitionNumber total={40} />
+              {/* <TransitionNumber total={40} /> */}
+              <h1 className="font-bold text-4xl">40</h1>
               <p className=" text-4xl self-center"> +</p>
             </div>
 
