@@ -84,7 +84,7 @@ const NavbarContent = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <Link href="" legacyBehavior passHref>
+          <Link href="/portfolio" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Portfolio
             </NavigationMenuLink>

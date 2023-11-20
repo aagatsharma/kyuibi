@@ -67,6 +67,7 @@ const page = () => {
               <Linkedin />
             </CardFooter>
           </Card>
+
           <Card className="space-y-3 flex flex-col items-center py-10 ">
             <Avatar className=" h-40 w-40 ">
               <AvatarImage src="https://github.com/shadcn.png" />
