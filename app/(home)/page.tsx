@@ -1,14 +1,10 @@
-"use client";
+import Home from "@/components/shared/home/Home";
 
-import { motion } from "framer-motion";
-
-export default function Home() {
+export default function page() {
   return (
     <div>
       <section>
-        <div>
-          <h1>Hi</h1>
-        </div>
+        <Home />
       </section>
       <section>Parallax</section>
       <section>Services</section>
