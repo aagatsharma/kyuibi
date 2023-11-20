@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
-import TransitionNumber from "../TransitionNumber";
+import AnimatedNumber from "../AnimateNumber";
 
 const Home = () => {
   return (
@@ -37,8 +37,7 @@ const Home = () => {
         <div className="grid grid-flow-col h-28 items-center gap-x-4  ">
           <div className="flex flex-col items-center">
             <div className="flex">
-              {/* <TransitionNumber total={50} /> */}
-              <h1 className="font-bold text-4xl">60</h1>
+              <AnimatedNumber stopAt={60} />
               <p className=" text-4xl self-center"> +</p>
             </div>
             <span className="text-lg">PROJECTS</span>
@@ -54,8 +53,7 @@ const Home = () => {
         <div className="grid grid-flow-col h-28 items-center gap-x-5  ">
           <div className="flex flex-col items-center">
             <div className="flex">
-              {/* <TransitionNumber total={40} /> */}
-              <h1 className="font-bold text-4xl">40</h1>
+              <AnimatedNumber stopAt={40} />
               <p className=" text-4xl self-center"> +</p>
             </div>
 
