@@ -5,15 +5,15 @@ import AnimatedNumber from "../AnimateNumber";
 
 const Home = () => {
   return (
-    <div className=" max-w-7xl m-auto pt-10  h-full px-5">
+    <div className=" max-w-7xl m-auto pt-16 max-md:pt-4 h-full px-5">
       <div className="flex flex-col md:flex-row items-center gap-10  ">
-        <div className="flex-1 space-y-10">
-          <div className=" gap-2 ">
-            <h1 className=" text-7xl">Hey</h1>
-            <h1 className=" text-7xl">There !</h1>
+        <div className="flex-1 space-y-10 max-md:space-y-5">
+          <div className=" gap-2">
+            <h1 className=" text-7xl max-md:text-5xl">Hey,</h1>
+            <h1 className=" text-7xl max-md:text-5xl">There !</h1>
           </div>
           <div>
-            <p className="text-xl tracking-wider">
+            <p className="text-xl tracking-wider max-md:text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
               in debitis minus, dolorem nobis nulla? Sapiente eos unde molestias
               nihil velit sunt laudantium qui vero. Deleniti veritatis quidem
@@ -24,16 +24,22 @@ const Home = () => {
             <Button className=" rounded" size={"lg"}>
               Start Here !
             </Button>
-            <Button className=" rounded" size={"lg"} variant="outline">
+            <Button className=" rounded" variant="outline" size={"lg"}>
               Contact Us
             </Button>
           </div>
         </div>
         <div>
-          <Image src={"/demo.png"} alt="Demo" width={600} height={500} />
+          <Image
+            src={"/demo.png"}
+            alt="Demo"
+            width={600}
+            height={600}
+            className="max-md:w-96 max-md:h-96 "
+          />
         </div>
       </div>
-      <div className="flex flex-col max-w-4xl m-auto pt-20 h-full md:flex-row ">
+      <div className="flex flex-col max-w-4xl m-auto pt-20 h-full md:flex-row max-sm:space-y-10 ">
         <div className="grid grid-flow-col h-28 items-center gap-x-4  ">
           <div className="flex flex-col items-center">
             <div className="flex">

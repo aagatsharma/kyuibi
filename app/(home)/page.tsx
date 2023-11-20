@@ -1,17 +1,15 @@
 import Home from "@/components/shared/home/Home";
+import Services from "@/components/shared/home/Services";
 
 export default function page() {
   return (
-    <div>
-      <section>
-        <Home />
-      </section>
-      <section>Parallax</section>
-      <section>Services</section>
-      <section>Project1</section>
+    <div className=" pt-20">
+      <Home />
+      <Services />
+      {/* <section>Project1</section>
       <section>Project2</section>
       <section>Project3</section>
-      <section>Contact</section>
+      <section>Contact</section> */}
     </div>
   );
 }
