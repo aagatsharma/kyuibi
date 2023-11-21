@@ -6,10 +6,6 @@ export default function page() {
     <div className=" pt-20">
       <Home />
       <Services />
-      {/* <section>Project1</section>
-      <section>Project2</section>
-      <section>Project3</section>
-      <section>Contact</section> */}
     </div>
   );
 }

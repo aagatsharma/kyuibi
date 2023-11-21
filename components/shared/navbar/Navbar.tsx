@@ -1,4 +1,4 @@
-import Sidebar from "../Sidebar";
+import Sidebar from "../sidebar/Sidebar";
 import NavbarContent from "./NavbarContent";
 import Link from "next/link";
 

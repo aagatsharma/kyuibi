@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
 import AnimatedNumber from "../AnimateNumber";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -22,16 +23,16 @@ const Home = () => {
           </div>
           <div className="flex gap-6">
             <Button className=" rounded" size={"lg"}>
-              Start Here !
+              <Link href="/portfolio">Start Here !</Link>
             </Button>
             <Button className=" rounded" variant="outline" size={"lg"}>
-              Contact Us
+              <Link href={"/contact-us"}>Contact Us</Link>
             </Button>
           </div>
         </div>
         <div>
           <Image
-            src={"/demo.png"}
+            src={"/images/demo.png"}
             alt="Demo"
             width={600}
             height={600}

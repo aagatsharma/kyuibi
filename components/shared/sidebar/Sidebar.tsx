@@ -9,8 +9,8 @@ import {
 } from "@/components/ui/sheet";
 import { MenuIcon } from "lucide-react";
 import Link from "next/link";
-import { Button } from "../ui/button";
-import NavbarContent from "./navbar/NavbarContent";
+import { Button } from "../../ui/button";
+import NavbarContent from "../navbar/NavbarContent";
 
 const Sidebar = () => {
   return (
