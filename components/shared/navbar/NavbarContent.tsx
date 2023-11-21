@@ -28,7 +28,7 @@ const NavbarContent = () => {
               <li>
                 <NavigationMenuLink asChild>
                   <Link
-                    href={""}
+                    href={"/#website"}
                     className={
                       "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                     }
@@ -40,7 +40,7 @@ const NavbarContent = () => {
               <li>
                 <NavigationMenuLink asChild>
                   <Link
-                    href={""}
+                    href={"/#app"}
                     className={
                       "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                     }
@@ -54,7 +54,7 @@ const NavbarContent = () => {
               <li>
                 <NavigationMenuLink asChild>
                   <Link
-                    href={""}
+                    href={"/#digital-marketing"}
                     className={
                       "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                     }
@@ -68,7 +68,7 @@ const NavbarContent = () => {
               <li>
                 <NavigationMenuLink asChild>
                   <Link
-                    href={""}
+                    href={"/#ui-ux-design"}
                     className={
                       "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                     }

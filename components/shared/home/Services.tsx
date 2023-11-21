@@ -11,7 +11,7 @@ const Services = () => {
         <Badge>Our Services</Badge>
       </div>
 
-      <div className="py-10">
+      <div className="py-10" id="website">
         <div className=" flex justify-between items-center md:gap-32 lg:gap-52 max-md:flex-col ">
           <div className="flex-1 space-y-10 max-md:space-y-7 gap-7">
             <h1 className=" text-4xl max-md:text-5xl">Website Development</h1>
@@ -36,7 +36,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="py-10">
+      <div className="py-10" id="app">
         <div className=" flex justify-between items-center md:gap-32 lg:gap-52 max-md:flex-col ">
           <div className=" max-md:order-2">
             <Image
@@ -63,7 +63,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="py-10">
+      <div className="py-10" id="digital-marketing">
         <div className=" flex justify-between items-center md:gap-52 max-md:flex-col max-md:space-y-10 ">
           <div className="flex-1 space-y-10 max-md:space-y-7 gap-7">
             <h1 className=" text-4xl max-md:text-5xl">Digital Marketing</h1>
@@ -88,7 +88,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="py-10">
+      <div className="py-10" id="ui-ux-design">
         <div className=" flex justify-between items-center md:gap-32 lg:gap-52 max-md:flex-col ">
           <div className=" max-md:order-2">
             <Image
